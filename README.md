@@ -16,14 +16,22 @@ python3 -m venv myvenv
 source myvenv/bin/activate
 ```
 
-2. Install libraries and dependencies
+2. Create and activate virtual environment on windows CMD
+```bash
+python -m venv myvenv
+cd myvenv
+.\Scripts\activate.bat 
+```
+
+
+3. Install libraries and dependencies
 ```bash
 pip3 install -r requirements.txt
 ```
 
-3. Get [OpenAI API key](https://platform.openai.com/account/api-keys)
+4. Get [OpenAI API key](https://platform.openai.com/account/api-keys)
 
-4. Run Streamlit app
+5. Run Streamlit app
 ```bash
 streamlit run main.py
 ```
@@ -37,4 +45,6 @@ python3 split_document.py
 [Streamlit Docs](https://docs.streamlit.io/get-started)  
 [Langchain Python Docs](https://python.langchain.com/v0.2/docs/introduction/)  
 [Langchain Conversational RAG Docs](https://python.langchain.com/v0.2/docs/tutorials/qa_chat_history/)  
+
+# research a better chunck_size and chunck_overlap to use
 

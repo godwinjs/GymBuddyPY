@@ -26,7 +26,7 @@ try:
     )
     split_texts = text_splitter.split_text(text)
     
-    # # Print each split text chunk to the console to see the output
+    # Print each split text chunk to the console to see the output
     # for i, chunk in enumerate(split_texts):
     #     print(f"Chunk {i+1}:")
     #     print(chunk)
